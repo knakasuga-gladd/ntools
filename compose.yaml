@@ -1,0 +1,8 @@
+services:
+  ntools:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    tty: true
+    volumes:
+      - ./:/home/ntools
